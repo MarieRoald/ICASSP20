@@ -58,7 +58,7 @@ simulation that lasts for _K_ time steps, forming _[**B**ₖ]_, for
 _k=1, 2,..., K_.
 
 The evolving network set-up contains a network generated using
-_pₘ = pᵢ = 0_ and _pₛ=1_ (shifting), two networks using _pᵢ > pₘ_\ ,
+_pₘ = pᵢ = 0_ and _pₛ=1_ (shifting), two networks using _pᵢ > pₘ_ ,
 one of which with _pₛ=0.5_ (growing & shifting) and the other with
 _pₛ=0_ (growing), and one network with _pᵢ < pₘ_ and _pₛ=0_
 (shrinking) (See Figure 2 in the paper). We also generated random _**B**ₖ_-s that
@@ -69,7 +69,7 @@ __Third mode (time):__ Factor vectors in this mode are simulated
 using two different set-ups: (i) all factor vectors drawn from a uniform
 distribution, _𝓤(1.1, 2.1)_ (ii) one factor vector follows a uniform distribution, _𝓤(1.1, 2.1)_, and
 the remaining three follow an exponential function, a sigmoidal function
-and a sine wave (See Figure 1 in the paper).\
+and a sine wave (See Figure 1 in the paper).
 
 
 ## PARAFAC2 components
