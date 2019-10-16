@@ -1,5 +1,5 @@
 # Supplementary materials
-__Tracing network evolution using the parafac2 model__
+__Tracing Network Evolution Using the PARAFAC2 Model__
 
 ## Table of contents
  1. Simulated data
