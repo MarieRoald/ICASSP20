@@ -78,4 +78,11 @@ These high-quality gifs were generated using the OpenSource tool [gifski](https:
 ![Component 2](component_2.gif)
 
 ## Code used
-Three toolboxes were used during this project, [TensorKit](https://github.com/marieroald/tensorkit), a Python library for tensor decompositions. [TensorKit Tools](https://github.com/marieroald/tensorkit_tools), an (undocumented) library to run large scale experiments with TensorKit and [SynTen](https://github.com/marieroald/synten), the simulation library developed for this paper. Additionally, the code used to generate the figures is available [here](https://github.com/marieroald/plottools).
+Three toolboxes were used during this project, [TensorKit](https://github.com/marieroald/tensorkit), a Python library for tensor decompositions. [SynTen](https://github.com/marieroald/synten), the simulation library developed for this paper and its dependency, [TensorKit Tools](https://github.com/marieroald/tensorkit_tools), an (undocumented) library to run large scale experiments with TensorKit. Additionally, the code used to generate the figures is available [here](https://github.com/marieroald/plottools).
+
+**Commits:**
+The following commits can be used to replicate the findings in this paper
+
+ * TensorKit: 82462e2bdf2add038ec6489cd1c493c0a44215c5
+ * TensorKit Tools: 10b5581e501982263c1aaa8739befdbc106fe683
+ * SynTen: 93dfe8be3d4fa0e38bb0008422ee182c1c10bfea
