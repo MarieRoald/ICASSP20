@@ -11,8 +11,8 @@ __Tracing Network Evolution Using the PARAFAC2 Model__
 ### Generation of simulated data
 
 We generated two types of simulated data sets: (i) data sets
-following (2) as well as the Parafac2 constraint, and (ii) data sets
-following (2), having time-evolving patterns _**B**ₖ_ that do not
+following Equation (2) from the paper as well as the Parafac2 constraint, and (ii) data sets
+following Equation (2) from the paper, having time-evolving patterns _**B**ₖ_ that do not
 necessarily follow the Parafac2 constraints.
 
 __First mode:__ Suppose that the first mode of the tensor
