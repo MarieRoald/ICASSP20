@@ -10,9 +10,6 @@ Supplementary materials
 Simulated data
 --------------
 
-Generation of simulated data
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 We generated two types of simulated data sets: (i) data sets following
 (2) as well as the Parafac2 constraint, and (ii) data sets following
 (2), having time-evolving patterns ***B**\ ₖ* that do not necessarily
@@ -22,11 +19,11 @@ follow the Parafac2 constraints.
 subjects. In this mode, we introduce a clustering structure since our
 goal with the analysis of time-evolving data is often to identify
 patterns that can separate different groups of subjects. The factor
-vectors, i.e., columns of ***A***, in this mode can be regarded as a
+vectors, i.e., columns of **A**, in this mode can be regarded as a
 measure of how much each underlying pattern (network) contributes to the
 signal of each subject. In order to generate the clustering structure,
 two vectors, representing the mean of each group, ***m**\ ₁* and
-***m**\ ₂* were drawn randomly from *{0, 1}ᴿ*. Then, for each subject,
+* **m**\ ₂ * were drawn randomly from *{0, 1}ᴿ*. Then, for each subject,
 *i*, a group, *gᵢ ∈ {1, 2}*, was chosen at random and a row vector
 ***a**\ ᵢ ∈ ℝ¹ˣᴿ* was drawn from a normal distribution with *μ =
 **m**\ ₁* (mean) if *gᵢ = 1* and *μ = **m**\ ₂* and *σ=0.5* (standard
