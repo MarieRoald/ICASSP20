@@ -78,4 +78,4 @@ These high-quality gifs were generated using the OpenSource tool [gifski](https:
 ![Component 2](component_2.gif)
 
 ## Code used
-Three toolboxes were used during this project, [TensorKit](https://github.com/marieroald/tensorkit), a Python library for tensor decompositions. [TensorKit Tools](https://github.com/marieroald/tensorkit_tools), an (undocumented) library to run large scale tests with TensorKit and [SynTen](https://github.com/marieroald/synten), a the simulation library developed this paper. Additionally, the code used to generate the figures is available [here](https://github.com/marieroald/plottools).
+Three toolboxes were used during this project, [TensorKit](https://github.com/marieroald/tensorkit), a Python library for tensor decompositions. [TensorKit Tools](https://github.com/marieroald/tensorkit_tools), an (undocumented) library to run large scale experiments with TensorKit and [SynTen](https://github.com/marieroald/synten), the simulation library developed for this paper. Additionally, the code used to generate the figures is available [here](https://github.com/marieroald/plottools).
