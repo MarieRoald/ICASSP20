@@ -83,6 +83,6 @@ Three toolboxes were used during this project, [TensorKit](https://github.com/ma
 **Commits:**
 The following commits can be used to replicate the findings in this paper
 
- * TensorKit: 82462e2bdf2add038ec6489cd1c493c0a44215c5
- * TensorKit Tools: 10b5581e501982263c1aaa8739befdbc106fe683
- * SynTen: 93dfe8be3d4fa0e38bb0008422ee182c1c10bfea
+ * TensorKit: `82462e2bdf2add038ec6489cd1c493c0a44215c5`
+ * TensorKit Tools: `10b5581e501982263c1aaa8739befdbc106fe683`
+ * SynTen: `93dfe8be3d4fa0e38bb0008422ee182c1c10bfea`
