@@ -77,6 +77,7 @@ and a sine wave (\[fig:AandC\]).\
 
 
 ## PARAFAC2 components
+These high-quality gifs were generated using the OpenSource tool [gifski](https://gif.ski/)
 ![Component 1](component_1.gif)
 ![Component 2](component_2.gif)
 
