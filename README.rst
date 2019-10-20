@@ -46,12 +46,12 @@ at each time step: (i) Growing: With pᵢ probability, a random passive
 node becomes active. (ii) Shrinking: With pₘ probability, a random
 active node becomes deactivated. Deactivated nodes are not re-added to
 the network. (iii) Shifting: With probability pₛ, node indices increase
-by 1. We also generate a baseline matrix, [**B̃**\ ₖ] with entries [b̃ₖ]ⱼᵣ
+by 1. We also generate a baseline matrix, [**Ꞵ**\ ₖ] with entries [ꞵₖ]ⱼᵣ
 randomly drawn from a normal distribution with μ=0.2 and σ=0.1. Finally,
 in order to generate [**B**\ ₖ], we iterate through all nodes in network
-r, and if node j is active in network r at time k, then [bₖ]ⱼᵣ = [b̃ₖ]ⱼᵣ
+r, and if node j is active in network r at time k, then [bₖ]ⱼᵣ = [ꞵₖ]ⱼᵣ
 + [ρₖ]ⱼᵣ, where [ρₖ]ⱼᵣ is drawn from a normal distribution (μ=0.8 and
-σ=0.1). Otherwise, [bₖ]ⱼᵣ = [b̃ₖ]ⱼᵣ. These steps are repeated for a
+σ=0.1). Otherwise, [bₖ]ⱼᵣ = [ꞵₖ]ⱼᵣ. These steps are repeated for a
 simulation that lasts for K time steps, forming [**B**\ ₖ], for k=1,
 2,..., K.
 
