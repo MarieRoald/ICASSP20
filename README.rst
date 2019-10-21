@@ -32,10 +32,10 @@ drawn from a normal distribution with μ = **m**\ ₁ (mean) if gᵢ = 1 and
 μ = **m**\ ₂ and σ=0.5 (standard deviation). These row vectors were
 stacked to generate an I×R matrix **A**.
 
-**Second mode (dynamic networks):** **B** matrices, i.e., [**B**\ ₖ],
+**Second mode (dynamic networks):** **B** matrices, i.e., **B**\ ₖ,
 are simulated with column vectors representing temporally evolving
 networks, where each element, [bₖ]ⱼᵣ, can be considered as a node while
-each factor vector [**b**\ ₖ]ᵣ corresponds to a network. If node j is
+each factor vector **b**\ ₖᵣ corresponds to a network. If node j is
 present in network r at time step k, then [bₖ]ⱼᵣ is high, i.e., node j
 is an active node; otherwise, [bₖ]ⱼᵣ is low, and node j is a passive
 node.
@@ -46,20 +46,20 @@ at each time step: (i) Growing: With pᵢ probability, a random passive
 node becomes active. (ii) Shrinking: With pₘ probability, a random
 active node becomes deactivated. Deactivated nodes are not re-added to
 the network. (iii) Shifting: With probability pₛ, node indices increase
-by 1. We also generate a baseline matrix, [**Ꞵ**\ ₖ] with entries [ꞵₖ]ⱼᵣ
+by 1. We also generate a baseline matrix, **Ꞵ**\ ₖ with entries [ꞵₖ]ⱼᵣ
 randomly drawn from a normal distribution with μ=0.2 and σ=0.1. Finally,
-in order to generate [**B**\ ₖ], we iterate through all nodes in network
+in order to generate **B**\ ₖ, we iterate through all nodes in network
 r, and if node j is active in network r at time k, then [bₖ]ⱼᵣ = [ꞵₖ]ⱼᵣ
 + [ρₖ]ⱼᵣ, where [ρₖ]ⱼᵣ is drawn from a normal distribution (μ=0.8 and
 σ=0.1). Otherwise, [bₖ]ⱼᵣ = [ꞵₖ]ⱼᵣ. These steps are repeated for a
-simulation that lasts for K time steps, forming [**B**\ ₖ], for k=1,
+simulation that lasts for K time steps, forming **B**\ ₖ, for k=1,
 2,..., K.
 
 The evolving network set-up contains a network generated using pₘ = pᵢ =
 0 and pₛ=1 (shifting), two networks using pᵢ > pₘ , one of which with
 pₛ=0.5 (growing & shifting) and the other with pₛ=0 (growing), and one
 network with pᵢ < pₘ and pₛ=0 (shrinking) (See Figure 2 in the paper).
-We also generated random **B**\ ₖ-s that follow the Parafac2
+We also generated random **B**\ ₖs that follow the Parafac2
 constraints. Note that evolving networks do not often satisfy this
 constraint.
 
