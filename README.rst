@@ -35,7 +35,7 @@ stacked to generate an I×R matrix **A**.
 **Second mode (dynamic networks):** **B** matrices, i.e., **B**\ ₖ,
 are simulated with column vectors representing temporally evolving
 networks, where each element, [bₖ]ⱼᵣ, can be considered as a node while
-each factor vector **b**\ ₖᵣ corresponds to a network. If node j is
+each factor vector [**b**\ ₖ]ᵣ corresponds to a network. If node j is
 present in network r at time step k, then [bₖ]ⱼᵣ is high, i.e., node j
 is an active node; otherwise, [bₖ]ⱼᵣ is low, and node j is a passive
 node.
