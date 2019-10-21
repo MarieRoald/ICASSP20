@@ -30,7 +30,8 @@ were drawn randomly from {0, 1}ᴿ. Then, for each subject, i, a group, gᵢ
 ∈ {1, 2}, was chosen at random and a row vector **a**\ ᵢ ∈ ℝ¹ˣᴿ was
 drawn from a normal distribution with μ = **m**\ ₁ (mean) if gᵢ = 1 and
 μ = **m**\ ₂ and σ=0.5 (standard deviation). These row vectors were
-stacked to generate an I×R matrix **A**.
+stacked to generate an I×R matrix **A**. (See Figure 2 in the
+paper).
 
 **Second mode (dynamic networks):** **B** matrices, i.e., **B**\ ₖ,
 are simulated with column vectors representing temporally evolving
@@ -58,7 +59,7 @@ simulation that lasts for K time steps, forming **B**\ ₖ, for k=1,
 The evolving network set-up contains a network generated using pₘ = pᵢ =
 0 and pₛ=1 (shifting), two networks using pᵢ > pₘ , one of which with
 pₛ=0.5 (growing & shifting) and the other with pₛ=0 (growing), and one
-network with pᵢ < pₘ and pₛ=0 (shrinking) (See Figure 2 in the paper).
+network with pᵢ < pₘ and pₛ=0 (shrinking) (See Figure 3 in the paper).
 We also generated random **B**\ ₖs that follow the Parafac2
 constraints. Note that evolving networks do not often satisfy this
 constraint.
@@ -67,7 +68,7 @@ constraint.
 two different set-ups: (i) all factor vectors drawn from a uniform
 distribution, 𝓤(1.1, 2.1) (ii) one factor vector follows a uniform
 distribution, 𝓤(1.1, 2.1), and the remaining three follow an exponential
-function, a sigmoidal function and a sine wave (See Figure 1 in the
+function, a sigmoidal function and a sine wave (See Figure 2 in the
 paper).
 
 PARAFAC2 components
